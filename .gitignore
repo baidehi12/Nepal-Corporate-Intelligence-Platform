@@ -1,0 +1,35 @@
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Scraped data
+data/raw/*
+!data/raw/.gitkeep
+
+data/staging/*
+!data/staging/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Local databases
+*.db
+*.sqlite3
+
+# Operating system
+.DS_Store
+Thumbs.db
