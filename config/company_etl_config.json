@@ -1,0 +1,4235 @@
+{
+  "description": "Cleaning rules aligned with config/company_scraper_config.json. Keeps scraper source lineage and does not invent missing values.",
+  "targets": [
+    {
+      "name": "Nabil Bank Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nabil Bank Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Unilever Nepal Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_profiles",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_board",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_management",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_staff",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_locations",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_market_data",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_share_prices",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | financials",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_news",
+      "fields": [
+        {
+          "name": "page_title",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "meta_description",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "headings",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "table_rows",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "paragraphs",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "list_items",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "links",
+          "required": false,
+          "type": "text"
+        },
+        {
+          "name": "page_text",
+          "required": false,
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

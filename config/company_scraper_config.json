@@ -1,0 +1,5463 @@
+{
+  "settings": {
+    "user_agent": "ProjectScraper/1.0 (student project; educational use)",
+    "timeout_seconds": 20,
+    "delay_seconds": 1.5,
+    "respect_robots": true,
+    "retries": 2
+  },
+  "targets": [
+    {
+      "name": "Nabil Bank Limited | company_profiles",
+      "url": "https://www.nabilbank.com/content/introduction",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_profiles",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_board",
+      "url": "https://cdn.nabilbank.com/board-of-directors",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_board",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_management",
+      "url": "https://www.nabilbank.com/management-team",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_management",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_staff",
+      "url": "https://www.nabilbank.com/ne/news/nabil-bank-celebrates-42-years-of-excellence-pledges-to-lead-nepal-s-financial-future-with-ai-driven-banking-beyond-blueprint",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_staff",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_locations",
+      "url": "https://www.nabilbank.com/branches",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_locations",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | financials",
+      "url": "https://cdn.nabilbank.com/report/investor-relations",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "financials",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NABIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_market_data",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NABIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_share_prices",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Nabil Bank Limited | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NABIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nabil Bank Limited",
+      "symbol": "NABIL",
+      "dataset": "company_news",
+      "notes": "For staff/headcount, review annual reports and official news. Financial URL is a candidate investor-relations route; if unavailable, inspect the official annual-report PDF link separately."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_profiles",
+      "url": "https://www.chandragirihills.com/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_profiles",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_board",
+      "url": "https://www.chandragirihills.com/board-of-director/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_board",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_management",
+      "url": "https://www.chandragirihills.com/management-team/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_management",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_staff",
+      "url": "https://www.chandragirihills.com/investor-relations/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_staff",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_locations",
+      "url": "https://www.chandragirihills.com/contact/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_locations",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | financials",
+      "url": "https://www.chandragirihills.com/investor-relations/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "financials",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=CGH",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_market_data",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=CGH",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_share_prices",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Chandragiri Hills Limited | company_news",
+      "url": "https://www.chandragirihills.com/press/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Chandragiri Hills Limited",
+      "symbol": "CGH",
+      "dataset": "company_news",
+      "notes": "Annual reports are linked PDFs; this scraper will collect the links, not extract PDF financial statements."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_profiles",
+      "url": "https://nepalrepublicmedia.com/company.php",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_profiles",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_board",
+      "url": "https://nepalrepublicmedia.com/company.php",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_board",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_management",
+      "url": "https://nepalrepublicmedia.com/company.php",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_management",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_staff",
+      "url": "https://nepalrepublicmedia.com/company.php",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_staff",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_locations",
+      "url": "https://nepalrepublicmedia.com/company.php",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_locations",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | financials",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NRM",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "financials",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NRM",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_market_data",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NRM",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_share_prices",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Nepal Republic Media Limited | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NRM",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Republic Media Limited",
+      "symbol": "NRM",
+      "dataset": "company_news",
+      "notes": "Company page includes an overview, board information and an employee count; financial/market metrics from Merolagani."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_profiles",
+      "url": "https://ommegashreepharmaceuticals.com/about/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_profiles",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_board",
+      "url": "https://ommegashreepharmaceuticals.com/about/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_board",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_management",
+      "url": "https://ommegashreepharmaceuticals.com/departments/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_management",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_staff",
+      "url": "https://ommegashreepharmaceuticals.com/career/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_staff",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_locations",
+      "url": "https://ommegashreepharmaceuticals.com/about/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_locations",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | financials",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=OMPL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "financials",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=OMPL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_market_data",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=OMPL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_share_prices",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Om Megashree Pharmaceuticals Limited | company_news",
+      "url": "https://ommegashreepharmaceuticals.com/category/media/news/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Om Megashree Pharmaceuticals Limited",
+      "symbol": "OMPL",
+      "dataset": "company_news",
+      "notes": "The user wrote 'Om Phrama'; interpreted as Om Megashree Pharmaceuticals Limited. Confirm if a different entity was intended."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_profiles",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_profiles",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_board",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_board",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_management",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_management",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_staff",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_staff",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_locations",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_locations",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | financials",
+      "url": "https://www.ghorahicement.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "financials",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=GCIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_market_data",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=GCIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_share_prices",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Ghorahi Cement Industry Limited | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=GCIL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Ghorahi Cement Industry Limited",
+      "symbol": "GCIL",
+      "dataset": "company_news",
+      "notes": "The corporate site homepage has investor-relations / annual and quarterly financial-statement links; inspect those outbound PDF links."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_profiles",
+      "url": "https://www.unilevernepal.com/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_profiles",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_board",
+      "url": "https://www.unilevernepal.com/unilever-nepal-leadership/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_board",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_management",
+      "url": "https://www.unilevernepal.com/unilever-nepal-leadership/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_management",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_staff",
+      "url": "https://www.unilevernepal.com/legal-and-financial-resources/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_staff",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_locations",
+      "url": "https://www.unilevernepal.com/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_locations",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | financials",
+      "url": "https://www.unilevernepal.com/legal-and-financial-resources/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "financials",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=UNL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_market_data",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=UNL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_share_prices",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Unilever Nepal Limited | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=UNL",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Unilever Nepal Limited",
+      "symbol": "UNL",
+      "dataset": "company_news",
+      "notes": "Annual and quarterly reports are downloadable PDFs listed on the legal and financial resources page."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_profiles",
+      "url": "https://www.ntc.net.np/about-us/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_profiles",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_board",
+      "url": "https://www.ntc.net.np/about-us/board-of-directors",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_board",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_management",
+      "url": "https://www.ntc.net.np/about-us/organization-structure",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_management",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_staff",
+      "url": "https://www.ntc.net.np/about-us/financial-statements",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_staff",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_locations",
+      "url": "https://www.ntc.net.np/about-us/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_locations",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | financials",
+      "url": "https://www.ntc.net.np/about-us/financial-statements",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "financials",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NTC",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_market_data",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NTC",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_share_prices",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal Doorsanchar Company Limited (Nepal Telecom) | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=NTC",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal Doorsanchar Company Limited (Nepal Telecom)",
+      "symbol": "NTC",
+      "dataset": "company_news",
+      "notes": "Financial Statements page lists year-wise reports. Management / organization-structure route should be checked against the current website menu if it moves."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_profiles",
+      "url": "https://nsbl.statebank/corporate-information1",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_profiles",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_board",
+      "url": "https://nsbl.statebank/corporate-information1",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_board",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_management",
+      "url": "https://nsbl.statebank/corporate-information1",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_management",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_staff",
+      "url": "https://nsbl.statebank/en/financial-reports",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_staff",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_locations",
+      "url": "https://nsbl.statebank/ne/branch-locator",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_locations",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | financials",
+      "url": "https://nsbl.statebank/en/financial-reports",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "financials",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBI",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_market_data",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBI",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_share_prices",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Nepal SBI Bank Limited | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBI",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Limited",
+      "symbol": "SBI",
+      "dataset": "company_news",
+      "notes": "This is the ordinary SBI equity. The user's 'Nepal SBI 2079' may refer instead to the separate SBIB2079 debenture; see separate target below."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_profiles",
+      "url": "https://utkhpl.org.np/introduction/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_profiles",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_board",
+      "url": "https://utkhpl.org.np/introduction/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_board",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_management",
+      "url": "https://utkhpl.org.np/management-team/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_management",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_staff",
+      "url": "https://utkhpl.org.np/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_staff",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_locations",
+      "url": "https://utkhpl.org.np/introduction/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_locations",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | financials",
+      "url": "https://utkhpl.org.np/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "financials",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=UPPER",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_market_data",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=UPPER",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_share_prices",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Upper Tamakoshi Hydropower Limited | company_news",
+      "url": "https://utkhpl.org.np/category/news/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Upper Tamakoshi Hydropower Limited",
+      "symbol": "UPPER",
+      "dataset": "company_news",
+      "notes": "The introduction page includes shareholding and board composition; annual-report documents are linked PDFs."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_profiles",
+      "url": "https://gmli.com.np/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_profiles",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_board",
+      "url": "https://gmli.com.np/board-of-directors/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_board",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_management",
+      "url": "https://gmli.com.np/team-member/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_management",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_staff",
+      "url": "https://gmli.com.np/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_staff",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_locations",
+      "url": "https://gmli.com.np/network-point/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_locations",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | financials",
+      "url": "https://gmli.com.np/annual-reports/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "financials",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=GMLI",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_market_data",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=GMLI",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_share_prices",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Guardian Micro Life Insurance Limited | company_news",
+      "url": "https://gmli.com.np/news-events/",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Guardian Micro Life Insurance Limited",
+      "symbol": "GMLI",
+      "dataset": "company_news",
+      "notes": "Annual reports are linked PDFs; network point page contains branch / service locations."
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_market_data",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBIB2079",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Debenture SBIB2079",
+      "symbol": "SBIB2079",
+      "dataset": "company_market_data",
+      "notes": "Separate corporate debenture / bond instrument, not the SBI listed ordinary equity. No recent trading quote was shown in the market snapshot."
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_share_prices",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBIB2079",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Debenture SBIB2079",
+      "symbol": "SBIB2079",
+      "dataset": "company_share_prices",
+      "notes": "Separate corporate debenture / bond instrument, not the SBI listed ordinary equity. No recent trading quote was shown in the market snapshot."
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | financials",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBIB2079",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Debenture SBIB2079",
+      "symbol": "SBIB2079",
+      "dataset": "financials",
+      "notes": "Separate corporate debenture / bond instrument, not the SBI listed ordinary equity. No recent trading quote was shown in the market snapshot."
+    },
+    {
+      "name": "Nepal SBI Bank Debenture SBIB2079 | company_news",
+      "url": "https://eng.merolagani.com/CompanyDetail.aspx?symbol=SBIB2079",
+      "fields": [
+        {
+          "name": "page_title",
+          "selector": "title",
+          "required": false
+        },
+        {
+          "name": "meta_description",
+          "selector": "meta[name='description']",
+          "attr": "content",
+          "required": false
+        },
+        {
+          "name": "headings",
+          "selector": "h1, h2, h3, h4",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "table_rows",
+          "selector": "table tr",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "paragraphs",
+          "selector": "p",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "list_items",
+          "selector": "li",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "links",
+          "selector": "a[href]",
+          "attr": "href",
+          "type": "url",
+          "multiple": true,
+          "required": false
+        },
+        {
+          "name": "page_text",
+          "selector": "body",
+          "required": false
+        }
+      ],
+      "company": "Nepal SBI Bank Debenture SBIB2079",
+      "symbol": "SBIB2079",
+      "dataset": "company_news",
+      "notes": "Separate corporate debenture / bond instrument, not the SBI listed ordinary equity. No recent trading quote was shown in the market snapshot."
+    }
+  ]
+}
