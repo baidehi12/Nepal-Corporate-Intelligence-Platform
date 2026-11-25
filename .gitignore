@@ -33,3 +33,8 @@ data/processed/*
 # Operating system
 .DS_Store
 Thumbs.db
+.env
+data/raw/
+data/staging/
+.venv/
+__pycache__/
